@@ -1,1 +1,10 @@
-<paste log output from Kubernetes-mediated prediction, here>
+(.devops) voclabs:~/environment/DevOps_Microservices/project-ml-microservice-kubernetes (master) $ ./run_kubernetes.sh 
+Error from server (AlreadyExists): pods "udacitylab21" already exists
+NAME           READY   STATUS    RESTARTS   AGE
+udacitylab2    1/1     Running   0          6m21s
+udacitylab21   1/1     Running   0          95s
+udacitylab3    1/1     Running   0          6m46s
+Forwarding from 127.0.0.1:8000 -> 80
+Forwarding from [::1]:8000 -> 80
+Handling connection for 8000
+Handling connection for 8000
