@@ -39,3 +39,15 @@ source .devops/bin/activate
 
 
 ### Explain file in project
+1. .circleci: CircleCi config pipeline
+2. model_data: resource of python project
+3. output_txt_files: 
+	docker_out.txt: output text when "./run_docker.sh" and Run "./make_prediction.sh"
+        kubernetes_out.txt: output text when "./run_kubernetes.sh" and Run "./make_prediction.sh"
+4. app.py: file source python of project
+5. requirements.txt: file have library as need to run project
+6. run_docker.sh: file bash to run docker
+7. run_kubernetes.sh: file bash to run kubernetes
+8. upload_docker.sh: file bash to push docker to docker hub
+
+   
